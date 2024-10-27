@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\work_space\\AIMS\\stuff_from_scratch\\decision_tree\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED25E9B0-CE96-46A3-A3AE-A75DF57D165A}|decision_tree.vcxproj|D:\\work_space\\AIMS\\stuff_from_scratch\\decision_tree\\decision_tree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ED25E9B0-CE96-46A3-A3AE-A75DF57D165A}|decision_tree.vcxproj|solutionrelative:decision_tree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "decision_tree.cpp",
+              "DocumentMoniker": "D:\\work_space\\AIMS\\stuff_from_scratch\\decision_tree\\decision_tree.cpp",
+              "RelativeDocumentMoniker": "decision_tree.cpp",
+              "ToolTip": "D:\\work_space\\AIMS\\stuff_from_scratch\\decision_tree\\decision_tree.cpp",
+              "RelativeToolTip": "decision_tree.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-27T16:13:32.797Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -7,7 +7,7 @@ int get_cols(FILE*);
 int get_rows(FILE*);
 
 int main() {
-	FILE* fp = fopen("data.csv", "r");
+	FILE* fp = fopen("data_preprocessed.csv", "r");
 	if (fp == NULL) {
 		printf("Error opening the file!\n");
 		exit(EXIT_FAILURE);
@@ -35,12 +35,12 @@ int main() {
 		}
 	}
 	
-	//for (int i = 0; i < row_count; i++) {
+	for (int i = 0; i < row_count; i++) {
 		for (int j = 0; j < col_count; j++) {
-			printf("%s, ", data[0][j]);
+			printf("%s, ", data[i][j]);
 		}
 		printf("\n");
-	//}
+	}
 	return 0;
 }
 

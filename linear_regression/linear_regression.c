@@ -44,8 +44,8 @@ double r_square(DataFrame* df, double w, double b, double avg_y) {
 
 int main() {
 	DataFrame df = { 0 };
-	removeCarriageReturn("Salary.csv", "clean.csv");
-	parse("clean.csv", &df);
+	removeCarriageReturn("datasets/Salary.csv", "datasets/clean.csv");
+	parse("datasets/clean.csv", &df);
 
 	/*for (size_t i = 0; i < df.len_cols; i++) {
 		for (size_t j = 0; j < df.len_rows; j++) {

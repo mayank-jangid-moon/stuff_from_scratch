@@ -22,5 +22,10 @@ D:\work_space\AIMS\stuff_from_scratch\linear_regression\include\csv_parser.h(123
       D:\work_space\AIMS\stuff_from_scratch\linear_regression\include\csv_parser.h(123,11):
       consider using '%zu' in the format string
   
+D:\work_space\AIMS\stuff_from_scratch\linear_regression\include\plot.h(83,84): warning C4474: 'fprintf' : too many arguments passed for format string
+  (compiling source file 'linear_regression.c')
+      D:\work_space\AIMS\stuff_from_scratch\linear_regression\include\plot.h(83,84):
+      placeholders and their parameters expect 2 variadic arguments, but 4 were provided
+  
 D:\work_space\AIMS\stuff_from_scratch\linear_regression\linear_regression.c(77,9): warning C4778: 'printf' : unterminated format string '%\n'
   linear_regression.vcxproj -> D:\work_space\AIMS\stuff_from_scratch\linear_regression\x64\Debug\linear_regression.exe

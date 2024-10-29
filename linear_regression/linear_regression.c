@@ -53,7 +53,7 @@ int main() {
 		}
 	}*/
 
-	//for (int i = 0; i < df.len_rows; i++) {   //PLEASE DOUBLE KI SIZE PE REHEN KARE AUR APNE DATA KO SCALE KAR LE :PRAYING_HANDS:
+	//for (int i = 0; i < df.len_rows; i++) {   //PLEASE DOUBLE KI SIZE PE REHEM KARE AUR APNE DATA KO SCALE KAR LE :PRAYING_HANDS:
 	//	df.data[1][i] /= 10000;               // Y
 	//	df.data[0][i] /= 10000;               // X
 	//}

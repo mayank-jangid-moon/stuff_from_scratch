@@ -19,7 +19,7 @@ int scatter_plot(DataFrame* df) {
         return 1;
     }
 
-    fprintf(gnuplotPipe, "set title 'Scatter Plot of Quadratic Function with Noise'\n");
+    fprintf(gnuplotPipe, "set title 'Scatter Plot'\n");
     fprintf(gnuplotPipe, "set xlabel 'x'\n");
     fprintf(gnuplotPipe, "set ylabel 'y'\n");
     fprintf(gnuplotPipe, "plot 'scatter_data.txt' with points pt 7 ps 1.5\n"); // pt is point type, ps is point size
@@ -79,8 +79,8 @@ void plot_scatter_and_line(double m, double c, DataFrame* df) {
     fprintf(gnuplotPipe, "set ylabel 'y'\n");
     fprintf(gnuplotPipe, "set xrange [%lf:%lf]\n", min_x, max_x);
     fprintf(gnuplotPipe, "set yrange [%lf:%lf]\n", min_y, max_y);
-    fprintf(gnuplotPipe, "plot 'scatter_line_data.txt' with points pt 7 ps 1.5 title 'Scatter Points', \\\n");
-    fprintf(gnuplotPipe, "     %lf * x + %lf title 'y = %.2lfx + %.2lf' with lines\n", m, c, m, c);
+    fprintf(gnuplotPipe, "plot 'scatter_line_data.txt' with points pt 7 ps 1.5 title 'data points', \\\n");
+    fprintf(gnuplotPipe, "     %lf * x + %lf title 'fit line' with lines\n", m, c, m, c);
 
     fflush(gnuplotPipe);
     _pclose(gnuplotPipe);

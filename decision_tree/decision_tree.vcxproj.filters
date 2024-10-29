@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="decision_tree.cpp">
+    <ClCompile Include="decision_tree.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
